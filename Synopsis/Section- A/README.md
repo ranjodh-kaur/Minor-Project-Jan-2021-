@@ -1,4 +1,3 @@
 # Synopsis Report
-Section A
 
-Submit your synopsis Report
+- Synposis Report of the Section-A students should be uploaded here.
