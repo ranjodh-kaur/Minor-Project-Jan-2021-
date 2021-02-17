@@ -1,1 +1,3 @@
-Section A Reports
+# Synopsis Report
+Section A
+Submit your synopsis Report
