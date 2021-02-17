@@ -1,5 +1,5 @@
 # Minor-Project
-You should submit your Synopsis and Final Report Here.
+Upload your synopsis / Final Report in the corresponding folder.
 
 ## Instructions
 1. Synopsis and Final Report should be in LaTex format (Download LyX editor, LyX is used in the sample).
