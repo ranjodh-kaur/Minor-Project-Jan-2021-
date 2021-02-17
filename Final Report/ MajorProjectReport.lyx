@@ -1,0 +1,1064 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+
+\series bold
+Guru Nanak Dev Engineering College Ludhiana
+\end_layout
+
+\begin_layout Standard
+\align center
+Department of Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\bar under
+\color black
+Format for Major Project Report
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+\bar under
+SPECIFICATIONS FOR MAJOR PROJECT REPORT
+\end_layout
+
+\begin_layout Enumerate
+Report shall be computer typed in Latex format use LyX or any editor (English-
+ British, Font -Times Roman, Size-12 point) and printed on A4 size paper.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The Report shall be hard bound with cover page in blue color.
+ The name of the candidate, degree (specifying the branch), roll no., session,
+ year of submission, name of the University including college name shall
+ be printed in black on the cover [Refer sample sheet (outer cover)].
+\end_layout
+
+\begin_layout Enumerate
+The report shall be typed on one side only with double space with a margin
+ 3.5 cm on the left, 2.5 cm on the top, and 1.25 cm on the right and at bottom.
+ 
+\end_layout
+
+\begin_layout Enumerate
+In the report, the title page [Refer sample sheet (inner cover)] should
+ be given first then the Certificate by the candidate and the supervisor(s)
+ in sequence, followed by an abstract of the report (not exceeding 1500
+ words).
+ This should be followed by the acknowledgment, list of figures/list of
+ tables, notations/nomenclature, and then contents with page numbers.
+ 
+\end_layout
+
+\begin_layout Enumerate
+References and Bibliography should be included in report.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The diagrams should be printed on a light/white background; Tabular matter
+ should be clearly arranged.
+ Decimal point may be indicated by full-stop (.) The caption for Figure must
+ be given at the BOTTOM of the Figure and Caption for the Table must be
+ given at the TOP of the Table.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The graphs should be combined for the same parameters for proper comparison.
+ Single graph should be avoided as far as possible.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Conclusions must not exceed more than two pages.
+ 
+\end_layout
+
+\begin_layout Enumerate
+There should be 03 copies of Final Report.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+
+\series bold
+PLANT RECOMMENDATION FOR BIO-FUEL
+\end_layout
+
+\begin_layout Author
+
+\series bold
+MAJOR PROJECT REPORT
+\end_layout
+
+\begin_layout Standard
+\align center
+SUBMITTED IN PARTIAL FULFILMENT OF THE REQUIREMENTS FOR 
+\end_layout
+
+\begin_layout Standard
+\align center
+THE AWARD OF THE DEGREE OF
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+BACHELOR OF TECHNOLOGY 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\align center
+Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename logo.jpeg
+	lyxscale 30
+	scale 20
+	BoundingBox 0bp 0bp 490bp 500bp
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Tabular
+<lyxtabular version="3" rows="5" columns="11">
+<features booktabs="true" tabularvalignment="middle">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top">
+<column alignment="left" valignment="top" width="0pt">
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Submitted By: 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Submitted To:
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Vijay Pratap Singh (1610776)
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Prof.
+ Pankaj Bhambri
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Muskan (1507945) 
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Assistant Professor
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="left" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Major Project Coordinator
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Department of Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Guru Nanak Dev Engineering College,
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Ludhiana-141006
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Abstract
+
+\size normal
+\emph on
+\color red
+(Sample)
+\end_layout
+
+\begin_layout Abstract
+Packet Filtering firewalls can use a database of rules to decide which packets
+ will be allowed to move in and out and from one network onto another.
+ However with the increase in size of rule list, it’s very hard to manage
+ and validate the rules, which can also increase the cost of rule lookup
+ and that may add significantly to latency.
+ Packet filtering is the one of the major contemporary firewall design technique
+s.
+ Implementation of such packet filter using Binary Decision Diagram (BDD)
+ gives more advantages in terms of memory usage and look up time.
+ In the case of the list-based packet filter firewall where rules are checked
+ one by one for each incoming packet, the time taken to decide on a packet
+ is proportional to the number of rules.
+ The performance is improved with rule promotion but that is a slow and
+ static kind of firewall implementation.
+ In this work a BDD-based approach is presented which gives much better
+ result in terms of number of comparisons or accesses the rule list make.
+ This work presents the study, design and implementation of a packet filter
+ firewall using binary decision diagram which provides faster processing
+ of packets while maintaining the integrity of the original security policy.
+ Results on large number of packets show that for most-accept packets, and
+ for most- reject packets there is manifold reduction in such comparisons
+ when BDD-based approach is used over list-based with promotion approach.
+\end_layout
+
+\begin_layout Abstract
+The overall performance of a firewall is crucial in enforcing and administrating
+ security, especially when the network is under attack.
+ The continuous growth of the Internet, coupled with the increasing sophisticati
+on of the attacks, is placing stringent demands on firewall performance.
+ In this work, a traffic-aware optimization framework is described to improve
+ the operational cost of firewalls.
+ Based on this framework a set of tools are designed that inspect and analyze
+ both multidimensional firewall rules and traffic logs and construct the
+ optimal equivalent firewall rules based on the observed traffic characteristics.
+ The current work is the first to use traffic characteristics in firewall
+ optimization.
+ To evaluate the performance of current approach, a large set of firewall
+ rules and traffic logs from a local LAN or at tens of enterprise networks
+ managed by a Tier-1 service provider are evaluated.
+ The evaluated results find these approaches very effective.
+ In particular, current work has achieved more than 10 fold performance
+ improvement by using the proposed traffic-aware firewall optimization.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+ACKNOWLEDGEMENT
+\end_layout
+
+\begin_layout Address
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Title page
+\series default
+ 
+\end_layout
+
+\begin_layout Standard
+Abstract i
+\end_layout
+
+\begin_layout Standard
+Acknowledgement ii
+\end_layout
+
+\begin_layout Standard
+List of Figures iii
+\end_layout
+
+\begin_layout Standard
+List of Tables iv
+\end_layout
+
+\begin_layout Standard
+Table of Contents v
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction 
+\end_layout
+
+\begin_layout Subsection
+Introduction to Project Page 
+\end_layout
+
+\begin_layout Subsection
+Project Category (Internet based, Application or System Development, Research
+ based, Industry Automation, Network or System Administration) 
+\end_layout
+
+\begin_layout Subsection
+Objectives
+\end_layout
+
+\begin_layout Subsection
+Problem Formulation
+\end_layout
+
+\begin_layout Subsection
+Identification/Reorganization of Need
+\end_layout
+
+\begin_layout Subsection
+Existing System 
+\end_layout
+
+\begin_layout Subsection
+Proposed System 
+\end_layout
+
+\begin_layout Subsection
+Unique Features of the System
+\end_layout
+
+\begin_layout Section
+Requirement Analysis and System Specification
+\end_layout
+
+\begin_layout Subsection
+Feasibility Study (Technical, Economical, Operational)
+\end_layout
+
+\begin_layout Subsection
+Software Requirement Specification Document which must include the following:
+ (Data Requirement, Functional Requirement, Performance Requirement, Dependabili
+ty Requirement, Maintainability requirement, Security Requirement, Look
+ and feel requirement)
+\end_layout
+
+\begin_layout Subsection
+Validation
+\end_layout
+
+\begin_layout Subsection
+Expected hurdles
+\end_layout
+
+\begin_layout Subsection
+SDLC Model to be used
+\end_layout
+
+\begin_layout Section
+System Design
+\end_layout
+
+\begin_layout Subsection
+Design Approach (Function oriented or Object oriented)
+\end_layout
+
+\begin_layout Subsection
+Detail Design
+\end_layout
+
+\begin_layout Subsection
+System Design using various structured analysis and design tools such as:
+ DFD’s, Data Dictionary, Structured charts, Flowcharts or UML
+\end_layout
+
+\begin_layout Subsection
+User Interface Design
+\end_layout
+
+\begin_layout Subsection
+Database Design
+\end_layout
+
+\begin_layout Subsubsection
+ER Diagrams
+\end_layout
+
+\begin_layout Subsubsection
+Normalization
+\end_layout
+
+\begin_layout Subsubsection
+Database Manipulation
+\end_layout
+
+\begin_layout Subsubsection
+Database Connection Controls and Strings
+\end_layout
+
+\begin_layout Subsection
+Methodology
+\end_layout
+
+\begin_layout Section
+Implementation, Testing, and Maintenance
+\end_layout
+
+\begin_layout Subsection
+Introduction to Languages, IDE’s, Tools and Technologies used for Implementation
+\end_layout
+
+\begin_layout Subsection
+Coding standards of Language used
+\end_layout
+
+\begin_layout Subsection
+Project Scheduling using various tools such as PERT, GANTT charts, Open
+ PROJ etc.
+\end_layout
+
+\begin_layout Subsection
+Testing Techniques and Test Plans
+\end_layout
+
+\begin_layout Section
+Results and Discussions
+\end_layout
+
+\begin_layout Subsection
+User Interface Representation (of Respective Project)
+\end_layout
+
+\begin_layout Subsubsection
+Brief Description of Various Modules of the system
+\end_layout
+
+\begin_layout Subsection
+Snapshots of system with brief detail of each
+\end_layout
+
+\begin_layout Subsection
+Back Ends Representation (Database to be used)
+\end_layout
+
+\begin_layout Subsubsection
+Snapshots of Database Tables with brief description
+\end_layout
+
+\begin_layout Section
+Conclusion and Future Scope
+\end_layout
+
+\begin_layout Section*
+References/Bibliography 
+\end_layout
+
+\begin_layout Standard
+(IEEE Format)
+\end_layout
+
+\begin_layout Section*
+Appendix A: Development Environment
+\end_layout
+
+\begin_layout Standard
+Note: The report of respective project should be as per prescribed format
+ and in the same order though if some of the points are not applicable in
+ regard with the concerned project, they might be omitted.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\end_body
+\end_document
