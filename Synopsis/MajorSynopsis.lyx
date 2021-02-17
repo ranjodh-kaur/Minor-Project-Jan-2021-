@@ -1,0 +1,639 @@
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\float_placement H
+\paperfontsize default
+\spacing double
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date true
+\justification true
+\use_refstyle 1
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 3.5cm
+\topmargin 2.5cm
+\rightmargin 1.25cm
+\bottommargin 1.25cm
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\quotes_language english
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Standard
+\align center
+Guru Nanak Dev Engineering College, Ludhiana
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+Format for B.Tech.
+ Major/ Minor Project Synopsis
+\end_layout
+
+\begin_layout Verbatim
+Note: Submission of Project Synopsis should be on github.
+ Fork the account and upload your file.
+\end_layout
+
+\begin_layout Section*
+Title page: same as given on page 3
+\end_layout
+
+\begin_layout Enumerate
+Proposed Topic
+\end_layout
+
+\begin_layout Enumerate
+Branch 
+\end_layout
+
+\begin_layout Enumerate
+Submitted by
+\end_layout
+
+\begin_layout Enumerate
+Name of Student 
+\end_layout
+
+\begin_layout Enumerate
+University Roll No.
+\end_layout
+
+\begin_layout Enumerate
+Class Roll No.
+ 
+\end_layout
+
+\begin_layout Enumerate
+Batch 
+\end_layout
+
+\begin_layout Section*
+Table of contents: 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Tabular
+<lyxtabular version="3" rows="2" columns="2">
+<features tabularvalignment="middle">
+<column alignment="center" valignment="top">
+<column alignment="center" valignment="top">
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Content
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Page no.
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" topline="true" bottomline="true" leftline="true" rightline="true" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+</cell>
+</row>
+</lyxtabular>
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section*
+Introduction (1 page) [Section]
+\end_layout
+
+\begin_layout Standard
+The introduction part will include the brief introduction about the project
+ to be developed, technology used, field of project (if specialized one),
+ any special technical terms about the project.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Rationale
+\series default
+: Justification, why needed?(1-2 paragraph)
+\end_layout
+
+\begin_layout Section*
+Objectives (3-4 points)
+\end_layout
+
+\begin_layout Section*
+Feasibility Study (should not exceed 1 page)
+\end_layout
+
+\begin_layout Standard
+This will describe the very first step of software engineering i.e.
+ feasibility study of the project that include the feasibility, need and
+ significance of the project
+\end_layout
+
+\begin_layout Section*
+Methodology/ Planning of work (should not exceed 1 page) 
+\end_layout
+
+\begin_layout Standard
+Research type, unit, methods, tools of data collection / analysis.
+ Methodology will include the steps to be followed to achieve the objective
+ of the project during the project development.
+\end_layout
+
+\begin_layout Section*
+Facilities required for proposed work (1 paragraph)
+\end_layout
+
+\begin_layout Standard
+Software/Hardware required for the development of the project.
+\end_layout
+
+\begin_layout Section*
+References (IEEE format)
+\end_layout
+
+\begin_layout Standard
+Here specify the description of the study material referred for the development
+ of project.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+SPECIFICATIONS FOR SYNOPSIS
+\end_layout
+
+\begin_layout Enumerate
+The synopsis shall be computer typed in LaTex [use editors LyX, TexMaker
+ etc] (English- British, Font -Times Roman, Size-12 point) and printed on
+ A4 size paper.
+ 
+\end_layout
+
+\begin_layout Enumerate
+The Synopsis shall be typed on one side only with double space with a margin
+ 3.5 cm on the left, 2.5 cm on the top, and 1.25 cm on the right and at bottom.
+ 
+\end_layout
+
+\begin_layout Enumerate
+In the synopsis, the title page [Refer sample sheet (inner cover)] should
+ be given first.
+ This should be followed by index, notations/nomenclature.
+\end_layout
+
+\begin_layout Enumerate
+The diagrams should be printed on a light/white background, Tabular matter
+ should be clearly arranged.
+ Decimal point may be indicated by full stop(.) The caption for Figure must
+ be given at the BOTTOM of the Fig.
+ and Caption for the Table must be given at the TOP of the Table.
+\end_layout
+
+\begin_layout Subparagraph*
+Following are the commands of LaTex to be used on Title page:
+\end_layout
+
+\begin_layout Enumerate
+PROJECT TITLE 
+\size scriptsize
+\color red
+(Select option Title)
+\end_layout
+
+\begin_layout Enumerate
+MAJOR PROJECT SYNOPSIS 
+\size scriptsize
+\color red
+(Select option Author)
+\end_layout
+
+\begin_layout Enumerate
+BACHELOR OF TECHNOLOGY
+\size scriptsize
+\color red
+ (Select option Standard; In paragraph settings Align: Center and Bold)
+\end_layout
+
+\begin_layout Enumerate
+Information Technology 
+\size scriptsize
+\color red
+(Select option Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+SUBMITTED BY
+\size scriptsize
+\color red
+ (Select Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+VIJAY PRATAP SINGH 
+\size scriptsize
+\color red
+(Select Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+University Roll no.
+ 1610776
+\size scriptsize
+\color red
+ (Select Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+Class Roll no.
+ 1510667 
+\size scriptsize
+\color red
+(Select Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+August 2008 
+\size scriptsize
+\color red
+(Select Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+Logo 
+\size scriptsize
+\color red
+(Insert-> Float-> Figure; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Enumerate
+GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA 
+\size scriptsize
+\color red
+(Select Standard; In paragraph settings Align: Center)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Title
+PROJECT TITLE 
+\end_layout
+
+\begin_layout Author
+MAJOR/Minor PROJECT SYNOPSIS 
+\end_layout
+
+\begin_layout Standard
+\align center
+
+\series bold
+BACHELOR OF TECHNOLOGY 
+\end_layout
+
+\begin_layout Standard
+\paragraph_spacing double
+\align center
+Information Technology
+\end_layout
+
+\begin_layout Standard
+\align center
+SUBMITTED BY
+\end_layout
+
+\begin_layout Standard
+\align center
+VIJAY PRATAP SINGH
+\end_layout
+
+\begin_layout Standard
+\align center
+University Roll no.
+ 1610776 
+\end_layout
+
+\begin_layout Standard
+\align center
+Class Roll no.
+ 1510667
+\end_layout
+
+\begin_layout Standard
+\align center
+August 2008
+\end_layout
+
+\begin_layout Standard
+\align center
+\begin_inset Graphics
+	filename logo.jpeg
+	lyxscale 30
+	scale 20
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\align center
+GURU NANAK DEV ENGINEERING COLLEGE, LUDHIANA
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Introduction 
+\series medium
+\size scriptsize
+\color red
+[Section command is used]
+\end_layout
+
+\begin_layout Standard
+The introduction part will be of 1 Page include the brief introduction about
+ the project to be developed, technology used, field of project (if specialized
+ one), any special technical terms about the project.
+\end_layout
+
+\begin_layout Standard
+
+\series bold
+Rationale
+\series default
+: Justification, why needed?(1-2 paragraph)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Objectives 
+\series medium
+\size scriptsize
+\color red
+[Section command is used]
+\end_layout
+
+\begin_layout Standard
+Include 3-4 points of Objectives.
+\end_layout
+
+\begin_layout Enumerate
+First Objective.
+\end_layout
+
+\begin_layout Enumerate
+Second Objective.
+\end_layout
+
+\begin_layout Enumerate
+Third Objective.
+\end_layout
+
+\begin_layout Enumerate
+Fourth Objective.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Feasibility Study 
+\series medium
+\size scriptsize
+\color red
+[Section command is used]
+\end_layout
+
+\begin_layout Standard
+This should not exceed 1 page it describe the very first step of software
+ engineering i.e.
+ feasibility study of the project that include the feasibility, need and
+ significance of the project
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Methodology/ Planning of work 
+\series medium
+\size scriptsize
+\color red
+[Section command is used]
+\end_layout
+
+\begin_layout Standard
+It should not exceed 1 page.
+ Research type, unit, methods, tools of data collection / analysis.
+ Methodology will include the steps to be followed to achieve the objective
+ of the project during the project development.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Facilities required for proposed work 
+\series medium
+\size scriptsize
+\color red
+[Section command is used]
+\end_layout
+
+\begin_layout Standard
+Software/Hardware required for the development of the project.
+ It includes 1 paragraph.
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+References 
+\series medium
+\size scriptsize
+\color red
+[Section command is used]
+\end_layout
+
+\begin_layout Description
+[1] M.
+ Shell.
+ (2007) IEEEtran webpage on CTAN.
+ [Online].
+ Available: http://www.ctan.org/tex-archive/macros/latex/contrib/ IEEEtran/
+\end_layout
+
+\begin_layout Description
+[2] Y.
+ Okada, K.
+ Dejima, and T.
+ Ohishi, “Analysis and comparison of PM synchronous motor and induction
+ motor type magnetic bearings,” IEEE Trans.
+ Ind.
+ Appl., vol.
+ 31, pp.
+ 1047–1053, Sep./Oct.
+ 1995.
+\end_layout
+
+\begin_layout Description
+[3] S.
+ Zhang, C.
+ Zhu, J.
+ K.
+ O.
+ Sin, and P.
+ K.
+ T.
+ Mok, “A novel ultrathin elevated channel low-temperature poly-Si TFT,”
+ IEEE Electron Device Lett., vol.
+ 20, pp.
+ 569–571, Nov.
+ 1999.
+\end_layout
+
+\end_body
+\end_document
