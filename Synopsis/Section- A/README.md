@@ -1,3 +1,3 @@
 # Minor Project Synopsis Report
 
-- Students will upload Synposis Report here.
+- Section- A students will upload Synposis Report here.
