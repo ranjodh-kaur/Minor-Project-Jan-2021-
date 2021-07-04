@@ -1,0 +1,89 @@
+<div class="container">
+    <div class="row w-100">
+        <div class="col-6">
+            <h3>Our Menu</h3>
+        </div>
+        <div class="col-6 p-0">
+            <button class="btn btn-primary float-right btn-md" (click)="openShoppingBasketModal(shoppingBasket)">
+                <span style="font-size: 18px; font-weight: 700;">Shopping Basket</span> &nbsp;
+                <span class="badge badge-light" style="font-size: 16px;">{{ totalItems }}</span>
+            </button>
+        </div>
+    </div>
+    <div class="row mt-3">
+        <div class="col">
+            <div class="row" style="display: flex; flex-wrap: wrap;">
+                <div class="col-12 col-sm-4 mb-4" *ngFor="let product of productList;">
+                    <div class="card shadow-sm">
+                        <img [src]="product.image" alt="" class="card-img-top img-fluid" style="height: 300px; width: 100%; object-fit: fill;">
+                        <div class="card-body">
+                            <div class="d-flex flex-column">
+                                <span class="font-weight-bold" style="font-size: 20px;">{{ product.prductName }}</span>
+                                <span class="text-sm text-muted" style="font-size: 16px;">&#8377; <strong>{{ product.price }}</strong></span>
+                            </div>
+                        </div>
+                        <div class="card-footer bg-white border-0">
+                            <div class="row d-flex justify-content-end align-items-end p-2">
+                                <button type="button" class="btn btn-outline-primary btn-sm" (click)="addToBasket(product)">
+                                    <i class="bi bi-cart3"></i>
+                                    Add To Basket
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<ng-template #shoppingBasket let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="modal-basic-title">Shopping Basket</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss('Cross click')">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <table class="table table-flush">
+            <thead class="thead-light">
+                <tr>
+                    <th>Sr. No</th>
+                    <th>Name</th>
+                    <th>Rating</th>
+                    <th>Quantity</th>
+                    <th>Original Price</th>
+                    <th>Total Price (in &#8377;)</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr *ngFor="let item of cartList; index as idx">
+                    <td>{{ idx + 1 }}</td>
+                    <td>{{ item.prductName }}</td>
+                    <td>{{ item.rating }}</td>
+                    <td>{{ item.quantity}}</td>
+                    <td>{{ item.price}}</td>
+                    <td>{{ item.price * item.quantity }}</td>
+                    <td>
+                        <button class="btn btn-link text-danger" (click)="removeProduct(item)">
+                            <i class="bi bi-trash"></i>
+                        </button>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <div class="modal-footer">
+        <div class="row w-100 m-0">
+            <div class="col-6 d-flex flex-column">
+                <h6 class="text-sm text-muted m-0">Total Items: <strong>{{ totalItems }}</strong></h6>
+                <h6 class="text-sm text-muted m-0">Total Price: &#8377; <strong>{{ totalPrice }}</strong></h6>
+            </div>
+            <div class="col-6 align-middle">
+
+                <button type="button" class="btn btn-outline-dark float-right" (click)="modal.close('Save click')">Save</button>
+            </div>
+        </div>
+    </div>
+</ng-template>

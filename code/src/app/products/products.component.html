@@ -1,0 +1,7 @@
+<p>products works!</p>
+<ul>
+    <li *ngFor="let item of items | async">
+      <h1>{{ item.productName }}</h1>
+      {{ item.price }}
+    </li>
+   </ul>
