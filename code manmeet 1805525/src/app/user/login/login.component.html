@@ -1,0 +1,54 @@
+<div class="container">
+    <div class="row py-5 mt-4 align-items-center shadow border rounded-lg">
+        
+        <div class="col-md-4 col-lg-6 " style='background-image: url("https://cdn.pixabay.com/photo/2019/03/21/14/31/brownie-4071142_960_720.jpg");width: 500px;height: 500px;' id="n1">
+        </div>
+
+        <!-- Login Form -->
+        <div class="col-md-7 col-lg-6 ml-auto">
+            <form >
+                <div class="row">
+
+                    <!-- Email Address -->
+                    <div class="input-group col-lg-12 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="bi bi-envelope-fill"></i>
+                            </span>
+                        </div>
+                        <input id="email" type="email" #email placeholder="Email Address" class="form-control bg-white border-left-0 border-md" required>
+                    </div>
+
+                    <!-- Password -->
+                    <div class="input-group col-lg-12 mb-4">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text bg-white px-4 border-md border-right-0">
+                                <i class="bi bi-lock-fill"></i>
+                            </span>
+                        </div>
+                        <input id="password" type="password"  placeholder="Password" class="form-control bg-white border-left-0 border-md" #password required>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="form-group col-lg-3 mx-auto mb-0">
+                        <!--<a href="#" class="btn btn-primary btn-block py-2">-->
+                            <button type="button" value="Log In" (click)="authService.SignIn(email.value, password.value)" class="btn btn-primary">Sign In</button>
+                    </div>
+
+                    <!-- Divider Text -->
+                    <div class="formGroup col-lg-12 mx-auto d-flex align-items-center my-4">
+                        <div class="border-bottom w-100 ml-5"></div>
+                        <span class="px-2 small text-muted font-weight-bold text-muted">OR</span>
+                        <div class="border-bottom w-100 mr-5"></div>
+                    </div>
+
+                    <!-- Don't have an account -->
+                    <div class="text-center w-100">
+                        <span class="text-muted font-weight-bold">Don't have an account? <a class="link" routerLink='/register'>Register</a>
+                    </span>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>

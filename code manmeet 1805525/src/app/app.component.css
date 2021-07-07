@@ -1,0 +1,13 @@
+h1 {
+    color : #295;
+    text-align: center;
+    font-size : xx-large;
+}
+
+.navbar{
+    background-color: rgba(91, 94, 97, 0.863);
+    text-decoration-color: cornsilk;
+}
+.nav-link dropdown-toggle{
+    text-decoration: black;
+}

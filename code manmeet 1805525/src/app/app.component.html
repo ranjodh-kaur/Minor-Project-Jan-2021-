@@ -1,0 +1,48 @@
+<h1>{{title}}</h1>
+
+<!--navbar-->
+<nav class="navbar navbar-expand-md sticky-top shadow">
+
+    <!-- Brand -->
+    <a class="navbar-brand text-white" href="#"></a>
+
+    <!-- Navbar links -->
+    <ul class="navbar-nav ">
+        <li class="nav-item active">
+            <a class="nav-link text-white" routerLink='./'> <i class="bi bi-house"></i> Home</a>
+        </li>
+        <!-- Dropdown -->
+        <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown"><i class="bi bi-person-circle"></i> User</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item " routerLink='/login'>Login</a>
+                <a class="dropdown-item" routerLink='/register'>Register</a>
+            </div>
+        </li>
+        <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle text-white" href="#" id="navbardrop" data-toggle="dropdown"><i class="bi bi-bag"></i> Products</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item " routerLink='/product-list'>Product-list</a>
+            </div>
+        </li>
+        <li class="nav-item active">
+            <a class="nav-link text-white" routerLink='./testimonials'> <i class="bi bi-newspaper"></i> Testimonials</a>
+        </li>
+
+
+    </ul>
+</nav>
+
+<br>
+
+
+<router-outlet></router-outlet>
+
+<router-outlet></router-outlet>
+
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/8.6.2/firebase-analytics.js"></script>
