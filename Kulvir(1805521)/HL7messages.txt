@@ -1,0 +1,11 @@
+MSH|^~\&|PCS|SCM|HLTCVO||20210604173035||RDE^O01|9012978600401100|D|2.3
+PID|||05285724||Hill^Adam||20101027
+PV1||Inpatient|NS-9^920^A^City Regional||||||||||||||||8455646178^^^IPACCT
+ORC|NW|FQ8TXAUTK4^PCS|FQ8TXAUTK4||||^daily^T2^20210604173035^20210611173035^Inpatient Chemo|||||MDRAY^Attending^Doc
+RXE||74716960^mesna injection 100 mg/mL, 10 mL(MESNEX injection 100 mg/mL)|90||mg|injection|To begin 1/2 hour pre Cyclophosphamide infusion||||||||M034DWCRWL|||||||24.00|44.12|ml/hr
+RXR|IVCI^IVCI
+NTE|1|P|To begin 1/2 hour pre Cyclophosphamide infusion|Admin Instructions^Admin Instructions
+NTE|2|P|Rate = mL/hr|Special Instructions^Special Instructions (do NOT use for label comments)
+RXC|A|74716960^mesna injection 100 mg/mL, 10 mL(MESNEX injection 100 mg/mL)^^B|90|mg
+RXC|B|74733437^normal saline 1,000 mL + 58 mL overfill(normal saline 1000 mL + 58 mL overfill)^^A|1058|ml
+
