@@ -1,0 +1,17 @@
+.container-fluid {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: auto;
+  background: #eee;
+}
+
+.form-control {
+  font-size: 20px;
+}
+
+input:focus, input::selection {
+  outline: 0;
+  box-shadow: none;
+}

@@ -1,0 +1,15 @@
+<div class="row">
+  <div class="col d-flex flex-column align-items-start">
+    <h5>Branches</h5>
+    <div class="row d-flex align-items-start">
+      <div class="col-12 col-sm-4 mb-2" *ngFor="let branch of branchCodesList; index as idx">
+        <div class="card shadow-sm cardHover">
+          <div class="card-body">
+            <h5 class="card-title">{{ branch.branch_name }}</h5>
+            <p class="card-text text-muted">{{ branch.short_name || " " }} {{ branch.branch_code }}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

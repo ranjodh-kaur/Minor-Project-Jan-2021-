@@ -1,0 +1,25 @@
+<div class="conatiner-fluid p-2">
+  <div class="row">
+    <div class="col-12 col-sm-6 d-flex align-items-center">
+      <h4>Student DashBoard</h4>
+    </div>
+    <div class="col-12 col-sm-6">
+      <div ngbDropdown class="d-inline-block float-right">
+        <button class="btn" id="dropdownBasic1" ngbDropdownToggle>
+          <span class="font-weight-bold" style="font-size: 18px;">{{ user['student_name'] }}</span>
+        </button>
+        <div ngbDropdownMenu aria-labelledby="dropdownBasic1">
+          <button ngbDropdownItem class="d-flex align-items-center" (click)="logout()">
+            <i class="material-icons">logout</i>&nbsp;
+            Logout
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row mt-2">
+    <div class="col">
+      <router-outlet></router-outlet>
+    </div>
+  </div>
+</div>
